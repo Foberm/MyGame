@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.fabian.mygame.MenuScreen">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#0000dd">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:text="Start!"
+            android:layout_weight="0.20"
+            android:textSize="36sp" />
+    </LinearLayout>
+</FrameLayout>
