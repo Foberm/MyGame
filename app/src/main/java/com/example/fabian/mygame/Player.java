@@ -10,6 +10,6 @@ public class Player {
     Rect boundings = new Rect(50, 480, 25, 50); //TODO - Responsive auslesen
 
     Player(){
-        
+
     }
 }
